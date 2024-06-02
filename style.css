@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(benjamin-voros-phIFdC6lA4E-unsplash.jpg);
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.myheader {
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 70px;
+  color: white;
+}
+.container {
+  width: 500px;
+  position: absolute;
+  left: 70vh;
+  top: 10vh;
+  padding: 40px 50px;
+  border-radius: 20px;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.941);
+  background-color: rgba(0, 0, 0, 0.719);
+}
+
+.my-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.labelemail {
+  font-size: 25px;
+  position: relative;
+  left: -105px;
+  color: #fff;
+}
+.valid {
+  position: relative;
+  top: 10px;
+  left: -105px;
+  font-size: 12px;
+  margin-bottom: 50px;
+  color: green;
+}
+.inputEmail {
+  width: 17rem;
+  height: 35px;
+  border: 1px solid green;
+  border-radius: 7px;
+  background: transparent;
+  backdrop-filter: blur(5px);
+  color: white;
+  font-size: 20px;
+  padding: 10px 20px;
+}
+
+.labelPassword {
+  font-size: 25px;
+  position: relative;
+  left: -80px;
+  color: white;
+}
+.inputPassword {
+  width: 17rem;
+  height: 35px;
+  background: transparent;
+  border-radius: 7px;
+  border: 1px solid red;
+  background: transparent;
+  backdrop-filter: blur(5px);
+  color: white;
+  font-size: 20px;
+  padding: 10px 20px;
+}
+.Incorrect {
+  position: relative;
+  top: 10px;
+  left: -84px;
+  font-size: 12px;
+  color: red;
+  margin-bottom: 30px;
+}
+.btn {
+  padding: 15px 50px;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: rgba(117, 117, 247, 0.507);
+  cursor: pointer;
+  width: 17rem;
+  color: white;
+}
+.btn:hover {
+  background-color: rgba(108, 108, 243, 0.589);
+}
+.btn:active {
+  background-color: rgba(82, 82, 243, 0.674);
+}
+@media (max-width: 1264px) {
+  .container {
+    position: relative;
+    left: 50vh;
+  }
+}
+@media (max-width: 1200px) {
+  .container {
+    position: relative;
+    left: 50vh;
+  }
+}
+@media (max-width: 1100px) {
+  .container {
+    position: relative;
+    left: 40vh;
+  }
+}
+@media (max-width: 1000px) {
+  .container {
+    position: relative;
+    left: 30vh;
+  }
+}
+@media (max-width: 888px) {
+  .container {
+    position: relative;
+    left: 25vh;
+  }
+}
+@media (max-width: 784px) {
+  .container {
+    position: relative;
+    left: 20vh;
+  }
+}
+@media (max-width: 680px) {
+  .container {
+    position: relative;
+    left: 90px;
+  }
+}
+@media (max-width: 610px) {
+  .container {
+    position: relative;
+    left: 60px;
+  }
+}
+@media (max-width: 574px) {
+  .container {
+    position: relative;
+    left: 50px;
+  }
+}
+@media (max-width: 552px) {
+  .container {
+    position: relative;
+    left: 40px;
+  }
+}
+@media (max-width: 460px) {
+  .container {
+    position: relative;
+    left: 30px;
+    width: 25rem;
+  }
+}
+@media (max-width: 434px) {
+  .container {
+    position: relative;
+    left: 20px;
+    width: 25rem;
+  }
+}
+@media (max-width: 420px) {
+  .container {
+    position: relative;
+    left: 30px;
+    width: 22rem;
+  }
+}
+@media (max-width: 384px) {
+  .container {
+    position: relative;
+    left: 29px;
+    width: 20rem;
+  }
+}
+@media (max-width: 350px) {
+  .container {
+    position: relative;
+    left: 10px;
+    width: 20rem;
+  }
+}
+@media (max-width: 390px) {
+  .container {
+    position: relative;
+    left: 30px;
+    width: 20rem;
+  }
+}
+@media (max-width: 320px) {
+  .container {
+    position: relative;
+    left: 8px;
+    width: 19rem;
+  }
+}
+@media (max-width: 1440px) {
+  .container {
+    position: relative;
+    left: 20rem;
+    width: 40rem;
+  }
+}
